@@ -20,7 +20,7 @@ The implementation follows a systematic approach to optimize the `min_df` parame
 
 To utilize this optimization framework in your text summarization projects, follow these steps:
 
-1. **Prepare Your Dataset:** Download the dataset from the corresponding links : Full dataset with 17038 article texts   https://data.mendeley.com/datasets/nvsxfcbzdk/2 , Sample of 376 article texts - .
+1. **Prepare Your Dataset:** Download the dataset from the corresponding links : Full dataset with 17038 article texts   https://data.mendeley.com/datasets/nvsxfcbzdk/2 , Sample of 376 article texts - https://data.mendeley.com/datasets/6zx6fw5t4t/1.
 2. **Run the Optimization:** Execute the script to start the dynamic optimization process. The script will iterate through various `min_df` values, evaluate their efficacy using ROUGE scores, and identify the most optimal setting.
 3. **Review Results:** The final output will include the optimal `min_df` value for your dataset, along with the corresponding ROUGE score, indicating the effectiveness of the summarization.
 
